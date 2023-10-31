@@ -361,7 +361,7 @@ public:
     }
 };
 
-class BitString
+class BitString : Array
 {
 private:
     unsigned char arr[100];
